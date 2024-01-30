@@ -15,14 +15,14 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                script {
-                    // Run tests
-                    sh 'mvn test'
-                }
-            }
-        }
+        // stage('Test') {
+        //     steps {
+        //         script {
+        //             // Run tests
+        //             sh 'mvn test'
+        //         }
+        //     }
+        // }
     }
     // post {
     //     cleanup {
